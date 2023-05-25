@@ -1,0 +1,46 @@
+Class: CS 141
+Program 2: Great 13
+
+Make a series of jumps until there is a single piece left
+anywhere on board. On each move you must jump an adjacent
+piece   into   an  empty  square,  jumping  horizontally,
+vertically, or diagonally.
+Input of 'R' resets the board back to the beginning, and
+'X' exits the game.
+
+  Board    Position
+    #          A
+  # # #      B C D
+# # . # #  E F G H I
+  # # #      J K L
+    #          M
+
+Enter positions from, jump, and to (e.g. EFG): acg
+
+  Board    Position
+    .          A
+  # . #      B C D
+# # # # #  E F G H I
+  # # #      J K L
+    #          M
+
+Enter positions from, jump, and to (e.g. EFG): kgc
+
+  Board    Position
+    .          A
+  # # #      B C D
+# # . # #  E F G H I
+  # . #      J K L
+    #          M
+
+Enter positions from, jump, and to (e.g. EFG): r
+Restarting game.
+
+  Board    Position
+    #          A
+  # # #      B C D
+# # . # #  E F G H I
+  # # #      J K L
+    #          M
+
+Enter positions from, jump, and to (e.g. EFG):
